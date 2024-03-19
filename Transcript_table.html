@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style_view.css" />
+
+     <!-- Animate.css CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>SUST Web Based Certificate</title>
+  </head>
+  <body>
+    <!-- Helpline Section -->
+    <div class="helpline">
+      <div class="container helpline__content-container">
+        <div class="helpline__info-container">
+          <img src="./assets/email-icon.png" alt="email icon" />
+          <a href="mailto:sust@sust.edu">sust@sust.edu</a>
+        </div>
+        <div class="helpline__info-container">
+          <img src="./assets/phone-icon.png" alt="email icon" />
+          <a href="tel:+0123456789">0123456789</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="https://www.sust.edu/">
+              <img src="./assets/sust_logo.png" alt="" />
+            </a>
+            <h1>SUST E-Certificate</h1>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-links__container"><a href="index.html">Home</a></li>
+            <li class="nav-links__container"><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+
+    <!-- View PDF Button -->
+    <div class="pdf-view-btn-container">
+      <button id="pdf-view-btn"><img src="./assets/pdf-icon.png"> View PDF</button>
+    </div>
+
+    <!---Info Part-->
+
+    <div class="Info"  >
+      <div class="Personal animate__animated animate__fadeIn">
+        <h1>Personal Info</h1>
+        <h2 id="name">Name : Arfatul Islam Asif</h2>
+        <h2 id="f-name">Father :Abdur Rahim Tara</h2>
+        <h2 id="m-name">Mother:Shahana Ferdousi</h2>
+        <h2 id="b-day">Birthday:12-March-2001</h2>
+      </div>
+      <div class="Academic animate__animated animate__fadeIn">
+        <h1>Academic Info</h1>
+        <h2 id="dept">Dept : Computer Science and Engineering</h2>
+        <h2 id="school" >School :IICT</h2>
+        <h2 id="grad-year">Graduation :2026</h2>
+        <h2 id="cgpa">CGPA:****</h2>
+      </div>
+    </div>
+
+    <!-- Next Result Button -->
+   <div class="next-result-btn-container">
+     <button> <img src="./assets/next-icon.png"> Next Year</button>
+   </div>
+
+    <!-- Results Container -->
+    <div class="Info results-container">
+      <div class="Personal animate__animated animate__fadeIn">
+        <h1>1st Year 1st Semester</h1>
+        <img src="./assets/1-1-results.jpg">
+      </div>
+      <div class="Personal animate__animated animate__fadeIn">
+        <h1>1st Year 2nd Semester</h1>
+        <img src="./assets/1-2-results.jpg">
+      </div>
+    </div>
+    
+  
+
+    <div class="download-btn-container">
+        <button onclick="go_back()">Go Back</a></button>
+        <button>Print</button>
+    </div>
+
+    <!---Certificate Part-->
+    <!-- <div class="form-section"></div> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>SUST Academics</h4>
+            <ul>
+              <li><a href="https://www.sust.edu/academics/schools">Schools</a></li>
+              <li><a href="https://www.sust.edu/institutes/iict">IICT</a></li>
+              <li><a href="https://www.sust.edu/institutes/iml">IML</a></li>
+              <li><a href="https://www.sust.edu/academics/central-library">Central library</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>SUST Offices</h4>
+            <ul>
+              <li><a href="https://www.sust.edu/offices/vc-office">Office of the VC</a></li>
+              <li><a href="https://www.sust.edu/offices/treasurer-office">
+                                                                       Office of the Treasurer</a></li>
+              <li><a href="https://www.sust.edu/offices/registrar-office">Office of the Registrar</a></li>
+              <li><a href="https://www.sust.edu/offices/all-other-offices">Others</a></li>
+              <li><a href="https://iqacsust.org/">IQAC</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Research</h4>
+            <ul>
+              <li><a href="https://www.sust.edu/research/sust-journals">Journal</a></li>
+              <li><a href="https://www.sust.edu/research/online-journals">Online Journals</a></li>
+              <li><a href="https://www.sust.edu/research/laboratory">Laboratory</a></li>
+              <li><a href="https://www.sust.edu/research/crtc">Center for Research</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/certificate.js"></script>
+  </body>
+</html>
