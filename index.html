@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>SUST Web Based Certificate Verifier</title>
+  </head>
+  <body>
+    <!-- Helpline Section -->
+    <div class="helpline">
+      <div class="container helpline__content-container">
+        <div class="helpline__info-container">
+          <img src="./assets/email-icon.png" alt="email icon" />
+          <a href="mailto:sust@sust.edu">sust@sust.edu</a>
+        </div>
+        <div class="helpline__info-container">
+          <img src="./assets/phone-icon.png" alt="email icon" />
+          <a href="tel:+0123456789">0123456789</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="https://www.sust.edu/">
+              <img src="./assets/sust_logo.png" alt="" />
+            </a>
+            <h1>SUST Certificate Verifier</h1>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-links__container"><a href="index.html">Home</a></li>
+            <li class="nav-links__container"><a href="https://www.sust.edu/about/contact-us">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="form-section">
+      <form class="form">
+        <div class="form-group">
+          <label for="registrationNumber">Registration Number</label>
+          <input
+            type="text"
+            id="registrationNumber"
+            name="registrationNumber"
+            placeholder="Enter your registration number"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dateOfBirth">Date of Birth</label>
+          <input type="date" id="dateOfBirth" name="dateOfBirth" required />
+        </div>
+
+        <div class="form-group">
+          <label for="documentType">Type of document:</label>
+          <select id="documentType" name="documentType" required>
+            <option value="certificate">Certificate</option>
+            <option value="transcript">Transcript</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <input
+            id="submit-form"
+            class="submit-btn"
+            type="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>SUST Academics</h4>
+            <ul>
+              <li>
+                <a href="https://www.sust.edu/academics/schools">Schools</a>
+              </li>
+              <li><a href="https://www.sust.edu/institutes/iict">IICT</a></li>
+              <li><a href="https://www.sust.edu/institutes/iml">IML</a></li>
+              <li>
+                <a href="https://www.sust.edu/academics/central-library"
+                  >Central library</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>SUST Offices</h4>
+            <ul>
+              <li>
+                <a href="https://www.sust.edu/offices/vc-office"
+                  >Office of the VC</a
+                >
+              </li>
+              <li>
+                <a href="https://www.sust.edu/offices/treasurer-office">
+                  Office of the Treasurer</a
+                >
+              </li>
+              <li>
+                <a href="https://www.sust.edu/offices/registrar-office"
+                  >Office of the Registrar</a
+                >
+              </li>
+              <li>
+                <a href="https://www.sust.edu/offices/all-other-offices"
+                  >Others</a
+                >
+              </li>
+              <li><a href="https://iqacsust.org/">IQAC</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Research</h4>
+            <ul>
+              <li>
+                <a href="https://www.sust.edu/research/sust-journals"
+                  >Journal</a
+                >
+              </li>
+              <li>
+                <a href="https://www.sust.edu/research/online-journals"
+                  >Online Journals</a
+                >
+              </li>
+              <li>
+                <a href="https://www.sust.edu/research/laboratory"
+                  >Laboratory</a
+                >
+              </li>
+              <li>
+                <a href="https://www.sust.edu/research/crtc"
+                  >Center for Research</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/our.sust/"><i class="fab fa-facebook-f"><img src = "assets/icons8-facebook-50.png"></i></a>
+              <a href="https://twitter.com/sustbd?lang=bn"><i class="fab fa-twitter"><img src = "assets/icons8-twitter-50.png"></i></a>
+              <a href="https://instagram.com/explore/locations/114483350317779/shahjalal-university-of-science-and-technology-sylhet-sust/"><i class="fab fa-instagram"><img src = "assets/icons8-instagram-50.png"></i></a>
+              <a href="https://bd.linkedin.com/school/shah-jalal-university-of-science-and-technology/"><i class="fab fa-linkedin-in"><img src = "assets/icons8-linkedin-50.png"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+  </body>
+</html>
